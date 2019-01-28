@@ -24,7 +24,8 @@ public class MainActivity extends AppCompatActivity {
         clearBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mLog.setText("");
+                string = "";
+                mLog.setText(string);
             }
         });
         mLog = (TextView) findViewById(R.id.log);
